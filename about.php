@@ -23,9 +23,9 @@ include("includes/main.php");
 <div id="content" ><!-- content Starts -->
 <div class="container" ><!-- container Starts -->
 
-<div class="col-md-12" ><!-- col-md-12 Starts -->
+<div class="col-md-12 " ><!-- col-md-12 Starts -->
 
-<div class="box" ><!-- box Starts -->
+<div class="box about-content" ><!-- box Starts -->
 
 <?php
 

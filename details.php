@@ -591,7 +591,7 @@ if($status == "product"){
 
 <div class="box same-height headline"><!-- box same-height headline Starts -->
 
-<h3 class="text-center"> You may also like these Products: We provide you top 3 product items. </h3>
+<h3 class="text-center"> You may also be interested in these products. </h3>
 
 </div><!-- box same-height headline Ends -->
 

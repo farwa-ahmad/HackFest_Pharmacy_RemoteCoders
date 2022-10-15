@@ -155,7 +155,7 @@ $<?php echo $sub_total; ?>.00
 
 </table><!-- table Ends -->
 
-<div class="form-inline pull-right"><!-- form-inline pull-right Starts -->
+<div class="form-blockYou may like these Products pull-center"><!-- form-inline pull-right Starts -->
 
 <div class="form-group"><!-- form-group Starts -->
 
@@ -165,7 +165,7 @@ $<?php echo $sub_total; ?>.00
 
 </div><!-- form-group Ends -->
 
-<input class="btn btn-primary" type="submit" name="apply_coupon" value="Apply Coupon Code" >
+<input class="btn btn-primary" type="submit" name="apply_coupon" value="Apply Coupon Code">
 
 </div><!-- form-inline pull-right Ends -->
 
@@ -336,7 +336,7 @@ echo @$up_cart = update_cart();
 
 <div class="box same-height headline"><!-- box same-height headline Starts -->
 
-<h3 class="text-center"> You may like these Products </h3>
+<h3 class="text-center"> You may also be interested in these products. </h3>
 
 </div><!-- box same-height headline Ends -->
 
