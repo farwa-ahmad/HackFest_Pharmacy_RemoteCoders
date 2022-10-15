@@ -69,10 +69,18 @@ if(!isset($_SESSION['customer_email'])){
             <img class="logo__img" src="images/logo.png" alt="Avenue fashion logotype" width="237" height="19">
           </a>
         </div>
-
+        <div class="input-group">
+            <div class="form-outline">
+            <input type="search" id="form1" class="form-control" />
+    <label class="form-label" for="form1">Search</label>
+  </div>
+  <button type="button" class="btn btn-primary">
+    <i class="fas fa-search"></i>
+  </button>
+</div>
         <nav class="main-nav">
-          <ul class="categories">
 
+          <ul class="categories">
             <li class="categories__item">
               <a class="categories__link" href="#">
                 Mens
