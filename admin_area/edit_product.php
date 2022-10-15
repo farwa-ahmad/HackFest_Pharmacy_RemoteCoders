@@ -306,8 +306,8 @@ echo "<option value='$cat_id'>$cat_title</option>";
 
 </div><!-- form-group Ends -->
 
-<!-- <div class="form-group" >
-form-group Starts
+<div class="form-group" >
+<!-- form-group Starts -->
 
 <label class="col-md-3 control-label" > Product Image 2 </label>
 
@@ -318,12 +318,13 @@ form-group Starts
 
 </div>
 
-</div>form-group Ends -->
+</div>
+<!-- form-group Ends -->
 
 
-<!-- <div class="form-group" >
+<div class="form-group" >
 
-form-group Starts
+<!-- form-group Starts -->
 
 <label class="col-md-3 control-label" > Product Image 3 </label>
 
@@ -335,7 +336,7 @@ form-group Starts
 </div>
 
 </div>
-form-group Ends -->
+<!-- form-group Ends -->
 
 <div class="form-group" ><!-- form-group Starts -->
 
