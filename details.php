@@ -567,11 +567,14 @@ Features
 
 </a><!-- btn btn-primary tab Ends -->
 
-<a class="btn btn-info tab" style="margin-bottom:10px;" href="#video" data-toggle="tab"><!-- btn btn-primary tab Starts -->
+<!-- <a class="btn btn-info tab" style="margin-bottom:10px;" href="#video" data-toggle="tab">
+btn btn-primary tab Starts
 
 Sounds and Videos
 
-</a><!-- btn btn-primary tab Ends -->
+</a>
+btn btn-primary tab Ends -->
+
 
 <hr style="margin-top:0px;">
 

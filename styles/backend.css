@@ -201,7 +201,7 @@ canvas {
 .clearfix:after {
   content: "";
   display: table;
-  clear: both
+  clear: both;
 }
 
 @font-face {
@@ -377,7 +377,8 @@ img {
 }
 
 .page-header__topline {
-  height: 45px;
+  height: 65px;
+  padding: 8px;
   background-color: #333
 }
 
