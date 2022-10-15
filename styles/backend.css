@@ -923,14 +923,14 @@ img {
   width: 300px
 }
 
-.page-footer__subline .designby {
+/* .page-footer__subline .designby {
   float: right;
   width: 220px
-}
+} */
 
 .page-footer__subline .developer {
   float: right;
-  width: 170px
+  width: 270px
 }
 
 .brand {
@@ -1049,9 +1049,9 @@ img {
   text-align: center;
   text-transform: uppercase;
   color: #FFF;
-  /* background: #666 url("../images/banner-ave.jpg") no-repeat;
+  background: #666 url("../images/banner-ave.jpg") no-repeat;
   background-size: cover;
-  background-position: center; */
+  background-position: center;
 }
 
 .nero__heading {
