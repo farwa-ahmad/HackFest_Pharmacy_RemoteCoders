@@ -10,10 +10,10 @@ include("includes/main.php");
 
 ?>
 
-
-  <!-- MAIN -->
+<!-- 
+  
   <main>
-    <!-- HERO -->
+  
     <div class="nero">
       <div class="nero__heading">
         <span class="nero__bold">Register</span> AT AVE
@@ -21,7 +21,7 @@ include("includes/main.php");
       <p class="nero__text">
       </p>
     </div>
-  </main>
+  </main> -->
 
 
 <div id="content" ><!-- content Starts -->
@@ -39,7 +39,7 @@ include("includes/main.php");
 
 <center><!-- center Starts -->
 
-<h2> Register A New Account </h2>
+<h2> Register a new account </h2>
 
 
 
@@ -175,7 +175,7 @@ include("includes/main.php");
 
 <div class="text-center"><!-- text-center Starts -->
 
-<button type="submit" name="register" class="btn btn-primary">
+<button type="submit" name="register" class="btn btn-primary mt-4 btn-block contact-btn">
 
 <i class="fa fa-user-md"></i> Register
 
