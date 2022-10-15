@@ -110,11 +110,19 @@
                       <li class="dropdown__item">
                         <a href="#" class="dropdown__link">Change Password</a>
                       </li>
-                      <!-- <li class="dropdown__item">
-                        <a href="#" class="dropdown__link">Delete Account</a>
-                      </li> -->
                     </ul>
                   </div>
+                </div>
+              </div>
+            </li>
+
+            <li class="categories__item">
+              <div class="wrap">
+                <div class="search">
+                  <input type="text" class="searchTerm" placeholder="Search">
+                  <button type="submit" class="searchButton">
+                    <i class="fa fa-search"></i>
+                  </button>
                 </div>
               </div>
             </li>
