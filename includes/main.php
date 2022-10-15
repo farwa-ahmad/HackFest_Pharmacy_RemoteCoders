@@ -69,28 +69,12 @@ if(!isset($_SESSION['customer_email'])){
             <img class="logo__img" src="images/logo.png" alt="Avenue fashion logotype" width="237" height="19">
           </a>
         </div>
-        <div class="input-group">
-            <div class="form-outline">
-            <input type="search" id="form1" class="form-control" />
-    <label class="form-label" for="form1">Search</label>
-  </div>
-  <button type="button" class="btn btn-primary">
-    <i class="fas fa-search"></i>
-  </button>
-</div>
         <nav class="main-nav">
 
           <ul class="categories">
             <li class="categories__item">
-              <a class="categories__link" href="#">
-                Mens
-               
-              </a>
-              </li>
-
-            <li class="categories__item">
-              <a class="categories__link" href="#">
-                Womens
+              <a class="categories__link" href="about.php">
+                About
                
               </a>
             </li>
@@ -102,8 +86,8 @@ if(!isset($_SESSION['customer_email'])){
             </li>
 
             <li class="categories__item">
-              <a class="categories__link" href="localstore.php">
-                Local Stores
+              <a class="categories__link" href="contact.php">
+                Contact Us
               </a>
             </li>
 
@@ -115,17 +99,17 @@ if(!isset($_SESSION['customer_email'])){
               <div class="dropdown dropdown--lookbook">
                 <div class="clearfix">
                   <div class="dropdown__half">
-                    <div class="dropdown__heading">Account Settings</div>
+                    <div class="dropdown__heading"></div>
                     <ul class="dropdown__items">
-                      <li class="dropdown__item">
-                        <a href="#" class="dropdown__link">My Wishlist</a>
-                      </li>
                       <li class="dropdown__item">
                         <a href="#" class="dropdown__link">My Orders</a>
                       </li>
                       <li class="dropdown__item">
                         <a href="#" class="dropdown__link">View Shopping Cart</a>
                       </li>
+                      <!-- <li class="dropdown__item">
+                        <a href="#" class="dropdown__link">Delete Account</a>
+                      </li> -->
                     </ul>
                   </div>
                   <div class="dropdown__half">
@@ -137,9 +121,9 @@ if(!isset($_SESSION['customer_email'])){
                       <li class="dropdown__item">
                         <a href="#" class="dropdown__link">Change Password</a>
                       </li>
-                      <li class="dropdown__item">
+                      <!-- <li class="dropdown__item">
                         <a href="#" class="dropdown__link">Delete Account</a>
-                      </li>
+                      </li> -->
                     </ul>
                   </div>
                 </div>
