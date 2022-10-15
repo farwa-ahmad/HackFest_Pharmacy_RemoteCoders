@@ -19,8 +19,9 @@
 
         <div class="basket">
           <a href="cart.php" class="btn btn--basket">
-            <i class="icon-basket"></i>
+            <p class="icon-basket">
             <?php items(); ?> items
+          </p>
           </a>
         </div>
         <ul class="login">
