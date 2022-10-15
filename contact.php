@@ -13,14 +13,14 @@ include("includes/main.php");
   <!-- MAIN -->
   <main>
     <!-- HERO -->
-    <div class="nero">
+    <!-- <div class="nero">
       <div class="nero__heading">
         <span class="nero__bold">Contact</span> Us
       </div>
       <p class="nero__text">
       If you have any questions, please feel free to contact us, our customer service center is working for you 24/7.
       </p>
-    </div>
+    </div> -->
   </main>
 
 <div class="col-md-12" ><!-- col-md-12 Starts -->
@@ -94,12 +94,12 @@ $contact_email = $row_conatct_us['contact_email'];
 
 <div class="form-group"><!-- form-group Starts -->
 
-<label> Select Enquiry Type </label>
+<label> Enquiry Type </label>
 
 
 <select name="enquiry_type" class="form-control"><!-- select Starts -->
 
-<option> Select Enquiry Type </option>
+<option value="" disabled selected hidden>Select Your Enquiry</option>
 
 <?php
 
@@ -122,11 +122,11 @@ echo "<option> $enquiry_title </option>";
 </div><!-- form-group Ends -->
 
 
-<div class="text-center"><!-- text-center Starts -->
+<div class="text-center mt-5"><!-- text-center Starts -->
 
-<button type="submit" name="submit" class="btn btn-primary">
+<button type="submit" name="submit" class="btn btn-primary mt-4 btn-block contact-btn">
 
-<i class="fa fa-user-md"></i> Send Message
+ Send Message
 
 </button>
 

@@ -1049,9 +1049,9 @@ img {
   text-align: center;
   text-transform: uppercase;
   color: #FFF;
-  background: #666 url("../images/banner-ave.jpg") no-repeat;
+  /* background: #666 url("../images/banner-ave.jpg") no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: center; */
 }
 
 .nero__heading {
@@ -1065,7 +1065,6 @@ img {
 .nero__text {
   font-size: 30px;
 }
-
 .hero {
   padding-top: 300px;
   padding-bottom: 140px;
@@ -1097,6 +1096,7 @@ img {
   background-color: #009595;
   color: white;
 }
+
 
 .wrapper {
   text-align: center;
