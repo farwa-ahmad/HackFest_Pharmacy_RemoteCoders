@@ -30,7 +30,7 @@ include("includes/db.php");
 
 <input type="password" class="form-control" name="admin_pass" placeholder="Password" required >
 
-<button class="btn btn-lg btn-primary btn-block" type="submit" name="admin_login" >
+<button class="btn btn-primary mt-4 btn-block contact-btn" type="submit" name="admin_login" >
 
 Log in
 

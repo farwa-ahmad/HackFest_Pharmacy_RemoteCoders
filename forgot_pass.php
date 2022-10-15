@@ -9,8 +9,8 @@ include("includes/main.php");
 
 ?>
 
-  <main>
-    <!-- HERO -->
+  <!-- <main>
+   
     <div class="nero">
       <div class="nero__heading">
         <span class="nero__bold">Forgot</span> password
@@ -18,7 +18,7 @@ include("includes/main.php");
       <p class="nero__text">
       </p>
     </div>
-  </main>
+  </main> -->
 
 <div id="content" ><!-- content Starts -->
 <div class="container" ><!-- container Starts -->
@@ -48,7 +48,7 @@ include("includes/main.php");
 
 <center>
 
-<h3> Enter Your Email Below , We Will Send You , Your Password </h3>
+<h3> Please enter your email address to recieve a password reset code. </h3>
 
 </center>
 
