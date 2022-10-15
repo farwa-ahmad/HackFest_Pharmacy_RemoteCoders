@@ -43,9 +43,9 @@ $pro_desc = $row_product['product_desc'];
 
 $pro_img1 = $row_product['product_img1'];
 
-$pro_img2 = $row_product['product_img2'];
+// $pro_img2 = $row_product['product_img2'];
 
-$pro_img3 = $row_product['product_img3'];
+// $pro_img3 = $row_product['product_img3'];
 
 $pro_label = $row_product['product_label'];
 
@@ -119,14 +119,14 @@ $p_cat_title = $row_p_cat['p_cat_title'];
 <div id="mainImage"><!-- mainImage Starts -->
 
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
-
-<ol class="carousel-indicators"><!-- carousel-indicators Starts -->
+<!-- 
+<ol class="carousel-indicators"> #carousel-indicators Starts 
 
 <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
 <li data-target="#myCarousel" data-slide-to="1"></li>
 <li data-target="#myCarousel" data-slide-to="2"></li>
 
-</ol><!-- carousel-indicators Ends -->
+</ol>carousel-indicators Ends -->
 
 <div class="carousel-inner"><!-- carousel-inner Starts -->
 
@@ -136,35 +136,33 @@ $p_cat_title = $row_p_cat['p_cat_title'];
 </center>
 </div>
 
-<div class="item">
+<!-- <div class="item">
 <center>
-<img src="admin_area/product_images/<?php echo $pro_img2; ?>" class="img-responsive">
+<img src="admin_area/product_images/" class="img-responsive">
 </center>
 </div>
 
 <div class="item">
 <center>
-<img src="admin_area/product_images/<?php echo $pro_img3; ?>" class="img-responsive">
+<img src="admin_area/product_images/" class="img-responsive">
 </center>
-</div>
+</div> -->
 
 </div><!-- carousel-inner Ends -->
-
-<a href="#myCarousel" class="left carousel-control" data-slide="prev"><!-- left carousel-control Starts -->
-
-<span class="glyphicon glyphicon-chevron-left"> </span>
-
+<!--
+<a href="#myCarousel" class="left carousel-control" data-slide="prev">
+ <span class="glyphicon glyphicon-chevron-left"> </span> 
+ 
 <span class="sr-only"> Previous </span>
 
-</a><!-- left carousel-control Ends -->
-
-<a class="right carousel-control" href="#myCarousel" data-slide="next"><!-- right carousel-control Starts -->
+</a>
+<a class="right carousel-control" href="#myCarousel" data-slide="next">
 
 <span class="glyphicon glyphicon-chevron-right"> </span>
 
 <span class="sr-only"> Next </span>
 
-</a><!-- right carousel-control Ends -->
+</a> -->
 
 </div>
 
@@ -511,25 +509,11 @@ echo "<script>window.open('$pro_url','_self')</script>";
 
 </div><!-- col-xs-4 Ends -->
 
-<div class="col-xs-4" ><!-- col-xs-4 Starts -->
+<!-- col-xs-4 Starts -->
 
-<a href="#" class="thumb" >
 
-<img src="admin_area/product_images/<?php echo $pro_img2; ?>" class="img-responsive" >
 
-</a>
-
-</div><!-- col-xs-4 Ends -->
-
-<div class="col-xs-4" ><!-- col-xs-4 Starts -->
-
-<a href="#" class="thumb" >
-
-<img src="admin_area/product_images/<?php echo $pro_img3; ?>" class="img-responsive" >
-
-</a>
-
-</div><!-- col-xs-4 Ends -->
+<!-- col-xs-4 Ends -->
 
 
 </div><!-- row Ends -->
@@ -567,11 +551,14 @@ Features
 
 </a><!-- btn btn-primary tab Ends -->
 
-<a class="btn btn-info tab" style="margin-bottom:10px;" href="#video" data-toggle="tab"><!-- btn btn-primary tab Starts -->
+<!-- <a class="btn btn-info tab" style="margin-bottom:10px;" href="#video" data-toggle="tab">
+btn btn-primary tab Starts
 
 Sounds and Videos
 
-</a><!-- btn btn-primary tab Ends -->
+</a>
+btn btn-primary tab Ends -->
+
 
 <hr style="margin-top:0px;">
 
