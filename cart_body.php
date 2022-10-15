@@ -8,18 +8,6 @@ include("functions/functions.php");
 include("includes/main.php");
 ?>
 
-  <main>
-    <!-- HERO -->
-    <div class="nero">
-      <div class="nero__heading">
-        <span class="nero__bold">SHOP</span> Cart
-      </div>
-      <p class="nero__text">
-      </p>
-    </div>
-  </main>
-
-
 <div id="content" ><!-- content Starts -->
 <div class="container" ><!-- container Starts -->
 

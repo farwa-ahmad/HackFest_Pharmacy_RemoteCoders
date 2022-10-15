@@ -16,8 +16,8 @@ include("includes/main.php");
 
 
 ?>
-  <main>
-    <!-- HERO -->
+  <!-- <main>
+
     <div class="nero">
       <div class="nero__heading">
         <span class="nero__bold">My </span>Account
@@ -25,7 +25,7 @@ include("includes/main.php");
       <p class="nero__text">
       </p>
     </div>
-  </main>
+  </main> -->
 
 <div id="content" ><!-- content Starts -->
 <div class="container" ><!-- container Starts -->

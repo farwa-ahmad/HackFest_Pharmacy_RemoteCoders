@@ -8,9 +8,8 @@ include("functions/functions.php");
 include("includes/main.php");
 
 ?>
-  <!-- MAIN -->
-  <main>
-    <!-- HERO -->
+
+  <!-- <main>
     <div class="nero">
       <div class="nero__heading">
         <span class="nero__bold">Terms</span> of use
@@ -18,7 +17,7 @@ include("includes/main.php");
       <p class="nero__text">
       </p>
     </div>
-  </main>
+  </main> -->
 
 <div id="content"><!-- content Starts -->
 
