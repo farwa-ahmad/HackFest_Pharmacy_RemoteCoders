@@ -1,7 +1,5 @@
 </head>
-
 <body>
-
   <header class="page-header">
     <!-- topline -->
     <div class="page-header__topline">
@@ -56,7 +54,7 @@
       <div class="container clearfix">
         <div class="logo">
           <a class="logo__link" href="index.php">
-            <img class="logo__img" src="images/logo.png" alt="Avenue fashion logotype" width="237" height="19">
+            <img class="logo__img" src="images/logo.png" alt="LifeLine logotype" width="120" height="1">
           </a>
         </div>
         <nav class="main-nav">
