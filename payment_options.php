@@ -15,11 +15,11 @@ $customer_id = $row_customer['customer_id'];
 
 ?>
 
-<h1 class="text-center">Payment Options For You</h1>
+<h1 class="text-center">Payment options</h1>
 
 <p class="lead text-center">
 
-<a href="order.php?c_id=<?php echo $customer_id; ?>">Pay Off line</a>
+<a href="order.php?c_id=<?php echo $customer_id; ?>">Pay offline</a>
 
 </p>
 
