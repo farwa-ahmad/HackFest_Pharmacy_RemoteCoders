@@ -37,6 +37,46 @@ pre {
   font-size: 1em
 }
 
+/* seart btn */
+.search {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+
+.searchTerm {
+  width: 100%;
+  border: 3px solid #00B4CC;
+  border-right: none;
+  padding: 5px;
+  height: 36px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #9DBFAF;
+}
+
+.searchTerm:focus{
+  color: #00B4CC;
+}
+
+.searchButton {
+  width: 40px;
+  height: 36px;
+  border: 1px solid #00B4CC;
+  background: #00B4CC;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/*Resize the wrap to see the search bar change!*/
+.wrap{
+margin-top: 35px;
+}
+
+
 a {
   background-color: transparent;
   -webkit-text-decoration-skip: objects
@@ -341,7 +381,7 @@ body {
 }
 
 .container {
-  width: 1170px;
+  width: 90%;
   margin: 0 auto
 }
 
@@ -456,185 +496,19 @@ img {
   float: right
 }
 
-/* Searchbar */
-
-.searchBarBorder {
-  border: 1px solid #dddddd;
-  border-radius: 32px;
-  color: #000000;
-  position: relative;
-  top: 4px;
-  height: 66px;
-  width: 100%;
-  box-shadow: 0px 16px 32px rgb(0 0 0 / 15%), 0px 3px 8px rgb(0 0 0 / 10%);
-  background-color: #ffffff;
-}
-.searchBarBase {
-  display: flex;
-  flex: 1 1 0%;
-  height: 100%;
-  min-width: 0px;
-  pointer-events: auto;
-}
-.searchBarFirstDiv {
-  flex: 1 0 0%;
-  min-width: 0px;
-  align-items: center;
-  position: relative;      /******/
-  display: flex;               /****/
-}
-.searchBarLabel {
-  cursor: pointer;
-  padding: 14px 32px;
-  display: block;
-  background-clip: padding-box;
-  border: 1px solid transparent;
-  border-radius: 32px;
-  flex: 1 0 0%;
-  min-width: 0px;
-  z-index: 3;         /**********/
-}
-.searchBarFirstContentDiv {
-  z-index: 1;
-  position: relative; /**************/
-}
-.searchBarHeadingFont {
-  font-size: 12px;
-  line-height: 16px;
-  font-weight: 800;
-  letter-spacing: 0.04em;
-  padding-bottom: 2px;
-}
-.searchBarInput {
-  display: block;
-  border: 0px;
-  margin: 0px;
-  padding: 0px;
-  width: 100%;
-  background: none;
-  font-size: 14px;
-  line-height: 18px;
-  font-weight: lighter;
-  color: #222222;
-  text-overflow: ellipsis;
-}
-.seperator {
-  align-self: center;
-  border-right: 1px solid #dddddd;
-  flex: 0 0 0px;
-  height: 32px;
-}
-.searchBarDiv {
-  align-items: center;
-  display: flex;
-  min-width: 0px;
-  position: relative;
-  flex: 0.95 0 auto;
-}
-.datePartStyling {
-  -webkit-appearance: none !important;
-  -moz-appearance: none !important;
-  appearance: none !important;
-  background: transparent !important;
-  border: 0px !important;
-  color: inherit !important;
-  cursor: pointer !important;
-  display: block !important;
-  font-family: inherit !important;
-  font-size: inherit !important;
-  font-weight: inherit !important;
-  line-height: inherit !important;
-  margin: 0px !important;
-  outline: none !important;
-  overflow: visible !important;
-  padding: 1px !important;
-  text-align: left !important;
-  text-decoration: none !important;
-  -webkit-user-select: auto !important;
-  -moz-user-select: auto !important;
-  -ms-user-select: auto !important;
-  user-select: auto !important;
-  -webkit-flex: 1 0 0% !important;
-  -ms-flex: 1 0 0% !important;
-  flex: 1 0 0% !important;
-  width: 0px !important;
-  /* z-index: 1 !important; */
-}
-.searchBarContentDiv {
-  padding: 14px 24px !important;
-  overflow: hidden !important;
-  position: relative !important;
-  white-space: nowrap !important;
-  width: 100% !important;
-  z-index: 1 !important;
-}
-.searchBarHeadingFont {
-  font-size: 12px;
-  line-height: 16px;
-  font-weight: 800;
-  letter-spacing: 0.04em;
-  padding-bottom: 2px;
-}
-.searchBarInput {
-  display: block;
-  border: 0px;
-  margin: 0px;
-  padding: 0px;
-  width: 100%;
-  background: none;
-  font-size: 14px;
-  line-height: 18px;
-  font-weight: lighter;
-  color: #222222;
-  text-overflow: ellipsis;
-}
-
-/*Search button*/
-
-.searchBarButton{
-    flex: 0 0 auto;
-    margin-left: -6px;
-    padding-right: 9px;
-    position: relative;
-    z-index: 5;
-    align-self: center;
-}
-.search_button {
-  max-width: 200px;
-  animation-delay: 0.8s;
-  background-color:  var(--matterColorDark);
-  color: var(--matterColorBright);
-  display: block;
-  box-sizing: border-box;
-  width: 125px;
-  padding: 12px 0;
-  text-align: center;
-  font-size: 16px;
-  font-weight: bolder;
-  letter-spacing: -0.5px;
-  border-radius: 25px;
-  margin-left: 2%;
-  margin-right: 2%;
-  align-self: center;
-}
-.search_button:hover {
-  text-decoration: none;
-  color: var(--matterColorBright);
-}
-/* Searchbar End */
-
 .page-header__bottomline .main-nav .categories {
   margin: 0;
   padding: 0;
   list-style: none;
   font-size: 0
+  display:  flex;
 }
 
 .page-header__bottomline .main-nav .categories__item {
   position: relative;
   display: inline-block;
   vertical-align: top;
-  margin-right: 57px
+  margin-right: 20px
 }
 
 .page-header__bottomline .main-nav .categories__item:last-child {
@@ -923,14 +797,14 @@ img {
   width: 300px
 }
 
-/* .page-footer__subline .designby {
+.page-footer__subline .designby {
   float: right;
   width: 220px
-} */
+}
 
 .page-footer__subline .developer {
   float: right;
-  width: 270px
+  width: 170px
 }
 
 .brand {
@@ -1065,6 +939,7 @@ img {
 .nero__text {
   font-size: 30px;
 }
+
 .hero {
   padding-top: 300px;
   padding-bottom: 140px;
@@ -1096,7 +971,6 @@ img {
   background-color: #009595;
   color: white;
 }
-
 
 .wrapper {
   text-align: center;
