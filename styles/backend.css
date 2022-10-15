@@ -418,7 +418,8 @@ img {
 
 .page-header__topline {
   height: 65px;
-  padding: 8px;
+  padding-top: 8px;
+  padding-bottom: 8px;
   background-color: #333
 }
 
@@ -489,7 +490,7 @@ img {
 }
 
 .page-header__bottomline .logo__link {
-  margin-top: -30pxpx;
+  margin-left:-30px;
   display: block
 }
 

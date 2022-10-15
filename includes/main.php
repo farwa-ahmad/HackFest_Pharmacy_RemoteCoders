@@ -55,7 +55,7 @@
       <div class="container clearfix">
         <div class="logo">
           <a class="logo__link" href="index.php">
-            <img class="logo__img" src="images/logo.png" alt="LifeLine logotype" width="120" height="1">
+            <img class="logo__img" src="images/logo.png" alt="LifeLine logotype" width="125" height="1">
           </a>
         </div>
         <nav class="main-nav">
