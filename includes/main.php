@@ -67,7 +67,7 @@
             </li>
 
             <li class="categories__item">
-              <a class="categories__link categories__link--active" href="shop.php">
+              <a class="categories__link" href="shop.php">
                 Shop
               </a>
             </li>

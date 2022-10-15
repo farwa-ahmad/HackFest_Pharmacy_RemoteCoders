@@ -92,8 +92,8 @@ $p_cat_title = $row_p_cat['p_cat_title'];
 
 ?>
 
-  <main>
-    <!-- HERO -->
+  <!-- <main>
+
     <div class="nero">
       <div class="nero__heading">
         <span class="nero__bold">Product </span>View
@@ -101,7 +101,7 @@ $p_cat_title = $row_p_cat['p_cat_title'];
       <p class="nero__text">
       </p>
     </div>
-  </main>
+  </main> -->
 
 <div id="content" ><!-- content Starts -->
 <div class="container" ><!-- container Starts -->
