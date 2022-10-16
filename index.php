@@ -115,7 +115,6 @@ include("includes/main.php");
             <a href="mailto:support@remotecoders.com" class="email__addr">support@remotecoders.com</a>
           </div>
         </div>
-
       </div>
     </div>
 
