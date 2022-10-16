@@ -73,8 +73,8 @@
 			<div class="footer-nav__col footer-nav__col--contacts">
 				<div class="footer-nav__heading">Contact details</div>
 				<address class="address">
-				Head Office: Avenue Fashion.<br>
-				180-182 Regent Street, London.
+				Head Office: Remote Coders
+Remote, World.
 			</address>
 				<div class="phone">
 					Telephone:
@@ -82,7 +82,7 @@
 				</div>
 				<div class="email">
 					Email:
-					<a href="mailto:support@yourwebsite.com" class="email__addr">support@yourwebsite.com</a>
+					<a href="mailto:support@remotecoders.com" class="email__addr">support@remotecoders.com</a>
 				</div>
 			</div>
 
