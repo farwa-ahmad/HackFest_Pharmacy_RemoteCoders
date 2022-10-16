@@ -63,10 +63,9 @@
     <!-- bottomline -->
     <div class="page-header__bottomline">
       <div class="container clearfix">
-
         <div class="logo">
           <a class="logo__link" href="../index.php">
-            <img class="logo__img" src="images/logo.png" alt="Avenue fashion logotype" width="237" height="19">
+            <img class="logo__img" src="images/logo.png" alt="LifeLine logotype" width="125" height="1">
           </a>
         </div>
 
@@ -88,7 +87,7 @@
           <li class="categories__item">
               <a class="categories__link" href="#">
                 My Account
-                <i class="icon-down-open-1"></i>
+                <!-- <i class="icon-down-open-1"></i> -->
               </a>
               <div class="dropdown dropdown--lookbook">
                 <div class="clearfix">

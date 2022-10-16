@@ -112,10 +112,9 @@ include("includes/main.php");
           </div>
           <div class="email">
             Email:
-            <a href="mailto:support@yourwebsite.com" class="email__addr">support@remotecoders.com</a>
+            <a href="mailto:support@remotecoders.com" class="email__addr">support@remotecoders.com</a>
           </div>
         </div>
-
       </div>
     </div>
 
