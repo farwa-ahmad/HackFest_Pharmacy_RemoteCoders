@@ -81,7 +81,8 @@
 
             <li class="categories__item">
               <a class="categories__link" href="customer/my_account.php?my_orders">
-              My Account <i class="fa fa-chevron-down"></i>
+                My Account 
+                <!-- <i class="fa fa-chevron-down"></i> -->
               </a>
               
               <div class="dropdown dropdown--lookbook">
