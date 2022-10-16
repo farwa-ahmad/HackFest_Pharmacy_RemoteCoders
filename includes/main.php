@@ -105,10 +105,10 @@
                     <div class="dropdown__heading"></div>
                     <ul class="dropdown__items">
                       <li class="dropdown__item">
-                        <a href="customer/edit_account.php?edit_acc" class="dropdown__link">Edit Account</a>
+                        <a href="#" class="dropdown__link">Edit Account</a>
                       </li>
                       <li class="dropdown__item">
-                        <a href="customer/change_pass.php?change_pass" class="dropdown__link">Change Password</a>
+                        <a href="#" class="dropdown__link">Change Password</a>
                       </li>
                     </ul>
                   </div>

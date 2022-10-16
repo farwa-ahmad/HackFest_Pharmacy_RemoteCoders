@@ -55,16 +55,16 @@
 						<a href="#" class="footer-nav__link">Register</a>
 					</li> -->
 					<li class="footer-nav__item">
-						<a href="#" class="footer-nav__link">View cart</a>
+						<a href="cart.php" class="footer-nav__link">View cart</a>
 					</li>
 					<!-- <li class="footer-nav__item">
 						<a href="#" class="footer-nav__link">View your lookbook</a>
 					</li> -->
 					<li class="footer-nav__item">
-						<a href="#" class="footer-nav__link">Track an order</a>
+						<a href="customer/my_account.php?my_orders" class="footer-nav__link">Track an order</a>
 					</li>
 					<li class="footer-nav__item">
-						<a href="#" class="footer-nav__link">Update information</a>
+						<a href="customer/my_account.php?my_orders" class="footer-nav__link">Update information</a>
 					</li>
 				</ul>
 			</div>
