@@ -1,4 +1,4 @@
-<div class="box"><!-- box Starts -->
+<div class="box about-content"><!-- box Starts -->
 
 <?php
 
@@ -15,7 +15,7 @@ $customer_id = $row_customer['customer_id'];
 
 ?>
 
-<h1 class="text-center">Payment options</h1>
+<h1 class="text-center" >Payment options</h1>
 
 <p class="lead text-center">
 
