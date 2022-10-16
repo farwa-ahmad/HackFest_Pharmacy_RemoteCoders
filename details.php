@@ -409,13 +409,13 @@ Bundle Price : $$pro_price
 
 <p class="text-center buttons" ><!-- text-center buttons Starts -->
 
-<button class="btn btn-danger" type="submit" name="add_cart">
+<button class="btn btn-success" type="submit" name="add_cart">
 
 <i class="fa fa-shopping-cart" ></i> Add to Cart
 
 </button>
 
-<button class="btn btn-warning" type="submit" name="add_wishlist">
+<button class="btn btn-primary" type="submit" name="add_wishlist">
 
 <i class="fa fa-heart" ></i> Add to Wishlist
 

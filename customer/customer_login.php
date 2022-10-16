@@ -1,4 +1,4 @@
-<div class="box">
+<div class="box about-content">
     <!-- box Starts -->
 
     <div class="box-header">
@@ -31,7 +31,7 @@
 
             <input type="password" class="form-control" name="c_pass" required>
 
-            <p align="center" style="top: 2px">
+            <p align="center" style="margin-top: 10px" >
 
                 Forgot Password? <a href="forgot_pass.php">Click here</a>.
 
@@ -55,7 +55,7 @@
     </form>
     <!--form Ends -->
 
-    <center>
+    <center style="margin-top: 10px">
         <!-- center Starts -->
         <p>New to LifeLine?
             <a href="customer_register.php">Register here</a>.

@@ -16,7 +16,7 @@ include("includes/main.php");
 
 <div class="col-md-9" id="cart" ><!-- col-md-9 Starts -->
 
-<div class="box" ><!-- box Starts -->
+<div class="box about-content" ><!-- box Starts -->
 
 <form action="cart.php" method="post" enctype="multipart-form-data" ><!-- form Starts -->
 
@@ -478,7 +478,7 @@ $product_label
 
 <div class="col-md-3"><!-- col-md-3 Starts -->
 
-<div class="box" id="order-summary"><!-- box Starts -->
+<div class="box about-content" id="order-summary"><!-- box Starts -->
 
 <div class="box-header"><!-- box-header Starts -->
 
