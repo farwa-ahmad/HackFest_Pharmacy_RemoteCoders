@@ -91,7 +91,7 @@ $i++;
 
 <td>
 
-<a href="my_account.php?delete_wishlist=<?php echo $wishlist_id; ?>" class="btn btn-primary">
+<a href="my_account.php?delete_wishlist=<?php echo $wishlist_id; ?>" class="btn btn-primary contact-btn">
 
 <i class="fa fa-trash-o"> </i> Delete
 

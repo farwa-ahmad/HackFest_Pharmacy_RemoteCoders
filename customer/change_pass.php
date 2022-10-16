@@ -31,7 +31,7 @@
 
 <div class="text-center"><!-- text-center Starts -->
 
-<button type="submit" name="submit" class="btn btn-primary">
+<button type="submit" name="submit" class="btn btn-primary btn-block contact-btn">
 
 <i class="fa fa-user-md"> </i> Change Password
 

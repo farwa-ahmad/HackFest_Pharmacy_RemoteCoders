@@ -97,7 +97,7 @@ $customer_image = $row_customer['customer_image'];
 
 <div class="text-center" ><!-- text-center Starts -->
 
-<button name="update" class="btn btn-primary" >
+<button name="update" class="btn btn-primary btn-block contact-btn" style="margin-bottom:30px;margin-top:30px" >
 
 <i class="fa fa-user-md" ></i> Update Now
 

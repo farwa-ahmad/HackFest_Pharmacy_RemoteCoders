@@ -5,9 +5,9 @@
 
 <form action="" method="post">
 
-<input class="btn btn-danger" type="submit" name="yes" value="Yes, I want to delete">
+<input class="btn btn-danger contact-btn" type="submit" name="yes" value="Yes, I want to delete">
 
-<input class="btn btn-primary" type="submit" name="no" value="No, I Don,t want to delete">
+<input class="btn btn-primary contact-btn" type="submit" name="no" value="No, I Don,t want to delete">
 
 </form>
 
