@@ -63,8 +63,8 @@
     <!-- bottomline -->
     <div class="page-header__bottomline">
       <div class="container clearfix">
-        <div class="logo">
-          <a class="logo__link" href="../index.php">
+      <div class="logo">
+          <a class="logo__link" href="index.php">
             <img class="logo__img" src="images/logo.png" alt="LifeLine logotype" width="125" height="1">
           </a>
         </div>
@@ -81,6 +81,11 @@
             <li class="categories__item">
               <a class="categories__link" href="../about.php">
                 About us
+              </a>
+            </li>
+            <li class="categories__item">
+              <a class="categories__link" href="contact.php">
+                Contact Us
               </a>
             </li>
 
