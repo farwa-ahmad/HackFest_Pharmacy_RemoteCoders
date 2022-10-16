@@ -9,7 +9,7 @@
           <a class="currency__change" href="customer/my_account.php?my_orders">
             <?php
             if (!isset($_SESSION['customer_email'])) {
-              echo "Welcome :Guest";
+              echo "Welcome to: Lifeline";
             } else {
               echo "Welcome : " . $_SESSION['customer_email'] . "";
             }
@@ -85,7 +85,7 @@
                 <!-- <i class="fa fa-chevron-down"></i> -->
               </a>
               
-              <div class="dropdown dropdown--lookbook">
+              <div class="dropdown dropdown--lookbook" style="z-index:999">
                 <div class="clearfix">
                   <div class="dropdown__half">
                     <div class="dropdown__heading"></div>

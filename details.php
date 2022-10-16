@@ -683,7 +683,7 @@ echo "
 
 <center>
 
-<p class='btn btn-warning'> $manufacturer_name </p>
+<p class='btn btn-primary'> $manufacturer_name </p>
 
 </center>
 
@@ -697,7 +697,7 @@ echo "
 
 <a href='$pro_url' class='btn btn-default' >View Details</a>
 
-<a href='$pro_url' class='btn btn-danger'>
+<a href='$pro_url' class='btn btn-success'>
 
 <i class='fa fa-shopping-cart'></i> Add To Cart
 
